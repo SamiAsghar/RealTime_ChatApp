@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <script defer src='http://localhost:8000/socket.io/socket.io.js'></script>
+    <!-- Defer: If defer is present (and not async): The script is downloaded in parallel to parsing the page, and executed after the page has finished parsing -->
+    <!-- Parsing: Converting html code into a DOM tree -->
+    <link rel="stylesheet" href="style.css">
+   
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Montserrat:wght@300;400&family=Raleway:wght@200;400;600&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- Jquery -->
+
+
+
+    <script defer src="js/client.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+<body>
+    <div class="filter">
+    </div>
+    <div class="container">
+            <h1>The Chat <span>Arena</span></h1>
+            <div id="messageContainer">
+            
+            </div>
+            <form action="#" id='sendContainer'>
+                <input class="input" type="text" name="messageInput" id="messageInput" placeholder="Type a message...">
+                <button class="send-btn btn" type="submit" id='sendBtn'span class="text">SEND</span></button>
+            </div>
+   
+</body>
+
+</html>

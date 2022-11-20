@@ -1,0 +1,1 @@
+If it not works than enable all cors
